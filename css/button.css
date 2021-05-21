@@ -9,9 +9,11 @@
   padding-block-start: 13px;
   padding-block-end: 13px;
   text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
 }
 
-.button.is-secundary {
+.button.is-secondary {
   background: unset;
   border: 2px solid var(--purple);
   color: var(--purple);

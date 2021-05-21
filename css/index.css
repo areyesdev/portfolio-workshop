@@ -1,6 +1,8 @@
 @import "./button.css";
 @import "./button-icon.css";
 @import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -28,4 +30,5 @@ body {
   background: var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
+  color: var(--purple);
 }
