@@ -33,14 +33,20 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    border: 1px solid red;
     display: flex;
     gap: 32px;
   }
   .hero-description {
     order: 1;
+    max-inline-size: 450px;
   }
   .hero-image {
     order: 2;
+    text-align: end;
+    flex: 1;
+    background: none;
+    border-bottom: none;
+    width: auto;
+    height: auto;
   }
 }
