@@ -5,7 +5,7 @@
 .hero-description {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
 .hero-social {
   padding-block-end: 24px;
@@ -24,13 +24,16 @@
 
 .hero h1 {
   font: var(--headline3);
-  margin: 1rem 0 1rem;
+  margin: 1rem 0 0;
 }
 .hero h1 span:nth-of-type(1) {
   font: var(--headline5);
   display: block;
 }
 
+.hero p {
+  margin: 0;
+}
 @media screen and (min-width: 768px) {
   .hero {
     display: flex;
