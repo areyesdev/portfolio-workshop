@@ -4,6 +4,10 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
+@import "./card.css";
+@import "./project.css";
+@import "./form.css";
+@import "./footer.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
